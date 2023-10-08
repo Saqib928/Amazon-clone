@@ -13,19 +13,15 @@
     justify-content: space-evenly;
 }
 
-.nav-logo {
-    height: 50px;
-    width: 113px;
-}
 
 
-.logo {
+
+.logo i{
     /* background-image: url("logo.jpg"); */
     background-size: cover;
-    height: 50px;
-    width: 113px;
-    margin-left: 5px;
-
+    transform: scale(2.5);
+    margin: 15px;
+color: white;
 }
 
 .border {
@@ -180,6 +176,7 @@ span{
     justify-content: space-evenly;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     background-color: #e2e7e6;
     margin-top:16px;
 
@@ -202,13 +199,7 @@ span{
 
 }
 
-.health-content{
-    margin-top: 40px;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    
 
-}
 .button{
     margin: auto;
 }
