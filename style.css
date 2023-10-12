@@ -13,15 +13,11 @@
     justify-content: space-evenly;
 }
 
-
-
-
-.logo i{
-    /* background-image: url("logo.jpg"); */
+.logo i {
     background-size: cover;
     transform: scale(2.5);
     margin: 15px;
-color: white;
+    color: white;
 }
 
 .border {
@@ -50,6 +46,8 @@ color: white;
     align-items: center;
 }
 
+/* ************************************************************** */
+
 /* box amazon search bar */
 
 .nav-search {
@@ -60,9 +58,11 @@ color: white;
     border-radius: 5px;
 
 }
-.nav-search:hover{
+
+.nav-search:hover {
     border: 3px solid orange;
 }
+
 .search-select {
     background-color: #f3f3f3;
     width: 50px;
@@ -95,55 +95,73 @@ color: white;
 
 /* amazon sign-in  */
 
-span{
+span {
     font-size: 0.7rem;
 }
-.nav-second{
+
+.nav-second {
     font-size: 1rem;
     font-weight: 700;
 }
 
 /* amazon cart */
-.nav-cart i{
+.nav-cart i {
     font-size: 30px;
 }
-.nav-cart{
+
+.nav-cart {
     font-size: 0.85rem;
-    font-weight: 700            ;
+    font-weight: 700;
 }
 
+
+/* ************************************************************* */
 /* amazon panel */
 
-.panel{
+.panel {
     height: 50px;
     background-color: #222f3d;
     display: flex;
     color: rgba(255, 255, 255, 0.87);
-    align-items: center;    
+    align-items: center;
     justify-content: space-evenly;
+    text-decoration: none;
 }
-.panel-options p{
+
+.panel-options p {
     display: inline;
     margin-left: 15px;
+    color: white;
+
 }
-.panel-options{
+
+.panel-options {
     width: 70%;
     font-size: 0.88rem;
     list-style: none;
-    
-}
-.a{
     text-decoration: none;
-    text-decoration-color: wheat;
+
 }
-.panel-deals{
+
+.panel-options a {
+    text-decoration: none;
+    color: white;
+}
+
+.panel-deals {
     font-size: 1rem;
     font-weight: 600;
 }
 
+.panel-deals a {
+    text-decoration: none;
+    color: white;
+}
+
+/* *********************************************************** */
 /* amazon hero section */
 
-.hero-section{
+.hero-section {
     background-image: url("header.jpg ");
     height: 380px;
     background-size: cover;
@@ -153,7 +171,7 @@ span{
 
 }
 
-.hero-messages{
+.hero-messages {
     background-color: white;
     color: black;
     height: 40px;
@@ -164,33 +182,35 @@ span{
     width: 88%;
     margin-bottom: 20px;
 }
-.hero-messages a{
+
+.hero-messages a {
     color: #007185;
 }
 
 
 /* amazon shop section */
 
-.shop-section{
-   
+.shop-section {
+
     justify-content: space-evenly;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     background-color: #e2e7e6;
-    margin-top:16px;
+    margin-top: 16px;
 
 }
 
-.Shop{
-    
+.Shop {
+
     width: 23%;
     height: 400px;
     background-color: white;
     padding: 20px 0px 15px;
     margin-top: 5px;
 }
-.per-img{
+
+.per-img {
     height: 350px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -200,6 +220,6 @@ span{
 }
 
 
-.button{
+.button {
     margin: auto;
 }
