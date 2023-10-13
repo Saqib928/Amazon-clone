@@ -98,6 +98,10 @@
 span {
     font-size: 0.7rem;
 }
+.nav-signin a{
+text-decoration: none;
+color: white;
+}
 
 .nav-second {
     font-size: 1rem;
