@@ -259,10 +259,19 @@ button {
 
 }
 
+.Get_To_Know_us li {
+    list-style: none;
+}
+
+
 .MakeMoney {
     margin-top: 4%;
     margin-bottom: 4%;
     text-decoration: none;
+}
+
+.MakeMoney li {
+    list-style: none;
 }
 
 .PaymentsMethod {
@@ -271,24 +280,25 @@ button {
     text-decoration: none;
 }
 
+.PaymentsMethod li {
+    list-style: none;
+}
+
 
 .letUsHelp {
     margin-top: 4%;
     margin-bottom: 4%;
-    /* text-decoration: none; */
+
 }
 
 
-.letUsHelp li{
-    text-decoration: none;
-    white-space: nowrap;
+.letUsHelp ul {
+    list-style: none;
+
 }
 
 
 .footerLogo {
-    /* justify-content: space-evenly;
-    width: 200px;
-    justify-content: center; */
 
     text-align: center;
     margin-top: 10px;
@@ -296,6 +306,7 @@ button {
     text-decoration: transparent;
 }
 
-.footerLogo img{
+
+.footerLogo img {
     width: 100px;
 }
