@@ -98,9 +98,10 @@
 span {
     font-size: 0.7rem;
 }
-.nav-signin a{
-text-decoration: none;
-color: white;
+
+.nav-signin a {
+    text-decoration: none;
+    color: white;
 }
 
 .nav-second {
@@ -232,4 +233,69 @@ button {
     border-radius: 10px;
     color: #FEBD68;
     background-color: #272121;
+}
+
+
+/* ********************************************** */
+/* Footer */
+
+
+.navFooter {
+    color: #dddddd;
+    background-color: #232f3e;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+
+}
+
+
+.Get_To_Know_us {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    text-decoration: none;
+
+
+}
+
+.MakeMoney {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    text-decoration: none;
+}
+
+.PaymentsMethod {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    text-decoration: none;
+}
+
+
+.letUsHelp {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    /* text-decoration: none; */
+}
+
+
+.letUsHelp li{
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+
+.footerLogo {
+    /* justify-content: space-evenly;
+    width: 200px;
+    justify-content: center; */
+
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+    text-decoration: transparent;
+}
+
+.footerLogo img{
+    width: 100px;
 }
