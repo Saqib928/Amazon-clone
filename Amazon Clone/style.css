@@ -217,6 +217,7 @@ span {
 .shop-section {
     display: flex;
     flex-wrap: wrap;
+    gap: 2px;
     justify-content: space-evenly;
     background-color: #e2e7e6;
 }
@@ -226,7 +227,7 @@ span {
     height: 400px;
     width: 23%;
     background-color: white;
-    padding: 20px 0px 15px;
+    padding: 20px 10px 10px 15px;
     margin-top: 5px;
     margin-top: 20px;
 }
